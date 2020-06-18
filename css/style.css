@@ -1213,7 +1213,7 @@ h3.slide-title {
 /* 4.2 Slide Services */
 
 .service-list {
-	margin-top: 4.25rem;
+	margin-top: 2rem;
 }
 
 .service-list ul {
@@ -1229,7 +1229,7 @@ h3.slide-title {
 }
 
 .service-list li:not(:first-child) {
-	margin-top: 1.3125rem;
+	margin-top: 8px;
 }
 
 .primary-link a,
