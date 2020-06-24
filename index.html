@@ -17,10 +17,10 @@
 
     <!-- Main CSS -->
     <link href="css/style.css" rel="stylesheet">
-
   </head>
 
-  <body class="body-piling is-dark">
+  <body class="body-piling is-dark" onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
     <div class="wrapper">
       <header id="header" class="header">
         <div class="container-fluid">
@@ -697,6 +697,16 @@
       </div>
     </div>
 
+    <script>
+      var myVar;
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      } 
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block"
+      }
+    </script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/smoothscroll.js"></script>
