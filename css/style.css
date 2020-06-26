@@ -299,10 +299,10 @@ label.error {
 }
 
 .body-piling .brand {
-	position: fixed;
 	z-index: 500;
 	left: 15px;
-	top: 15px;
+	padding:1em;	
+	position: absolute;
 }
 
 .brand-name {
@@ -323,9 +323,10 @@ label.error {
 }
 
 @media (min-width: 768px) {
-	.body-piling .brand {
-		top: 3.875rem;
+	.slide-title-margin-lg .slide-title{
+		font-size: 1.75rem;
 	}
+		
 }
 
 @media (min-width: 1400px) {
@@ -354,6 +355,9 @@ label.error {
 	.body-piling .nav-toggle-btn {
 		top: 4.1875rem;
 	}
+	.slide-title{
+		font-size: 1.75rem;
+	}
 }
 
 @media (min-width: 1400px) {
@@ -372,6 +376,9 @@ label.error {
   cursor: pointer;
   padding-top: 5px;
   padding-bottom: 5px;
+  position: fixed;
+  top:1em;
+  right: 1em;
 }
 
 .hamburger span {
@@ -489,6 +496,9 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
   .menu {
     width: 34rem;
   }
+  .slide-title{
+	font-size: 1.75rem;
+}
 }
 
 .menu .menu-lang,
@@ -942,6 +952,10 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 	padding-bottom: 98.08743169%;
 }
 
+.row{
+	margin: 1px;
+}
+
 .shape7-intro {
 	top: 44.9% !important;
 	left: 62.96875% !important;
@@ -1137,7 +1151,7 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 .slide-title {
 	margin-bottom: 1.875rem;
 	font-weight: bold;
-	font-size: 2.75rem;
+	font-size: 1.75rem;
 	letter-spacing: -0.02em;
 	line-height: 1.31818182;
 }
@@ -1145,6 +1159,9 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 @media (min-width: 768px) {
 	.slide-title {
 		margin-right: -3.125rem;
+	}
+	.slide-title{
+		font-size: 1.75rem;
 	}
 
 	.slide-title.text-center,
@@ -1162,7 +1179,7 @@ h3.slide-title {
 }
 
 .slide-title-margin-lg {
-	margin-bottom: 4rem;
+	font-size: 2rem;
 }
 
 .slide-title .text-typed {
@@ -1189,6 +1206,9 @@ h3.slide-title {
 @media (min-width: 768px) {
 	.slide-photo {
 		margin-top: 0;
+	}
+	.slide-title{
+		font-size: 1.75rem;
 	}
 }
 
@@ -1501,6 +1521,9 @@ h3.slide-title {
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: contain;
+	width: 12em;
+	margin-top: 3em;
+	margin-bottom: 5em;
 }
 
 .photo-bg-education {
@@ -1574,6 +1597,9 @@ h3.slide-title {
 @media (min-width: 768px) {
 	.portfolio-item-detail {
 		min-height: 8.75rem;
+	}
+	.slide-title{
+		font-size: 1.75rem;
 	}
 }
 
@@ -1939,6 +1965,10 @@ h3.slide-title {
 		padding-bottom: 7.03125%;
 	}
 
+	.slide-title{
+		font-size: 1.75rem;
+	}
+
 	.slide-contacts .slide-container {
 		padding-bottom: 13.75rem;
 	}
@@ -2053,7 +2083,9 @@ h3.slide-title {
 	.body-piling .copyright {
 		bottom: 4rem;
 	}
-
+	.slide-title{
+		font-size: 1.75rem;
+	}
 	.body-piling .footer-social {
 		bottom: 4.375rem;
 	}
@@ -2275,6 +2307,9 @@ h3.slide-title {
 		margin-left: -5rem;
 		margin-right: -5rem;
 	}
+	.slide-title{
+		font-size: 1.75rem;
+	}
 }
 
 .screen-content {
@@ -2400,3 +2435,34 @@ h3.slide-title {
 	display: none;
 	text-align: center;
   }
+
+  /*Version Mobile*/
+@media (max-width: 758px) {
+	.col-md-6{
+		display: none!important;
+	}
+	.fadeInUp{
+		padding-bottom: 2em;
+	}
+	.slide-title{
+		font-size: 2em!important;
+	}
+
+	.Resp-pic{
+		width: 9em;
+		margin-top: 0px;
+		width: 7em;
+		float: right;
+		margin-right: 5em;
+	}
+	.reward-list {
+		margin-top:0rem; 
+	}
+	
+}
+
+@media (width: 360px){
+	#pt-20{
+		padding-top: 20em;
+	}
+}
