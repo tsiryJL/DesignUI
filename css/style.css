@@ -1203,6 +1203,10 @@ h3.slide-title {
 	margin-top: 4rem;
 }
 
+.parcours{
+	width: 1em;
+}
+
 @media (min-width: 768px) {
 	.slide-photo {
 		margin-top: 0;
@@ -1523,7 +1527,7 @@ h3.slide-title {
 	background-size: contain;
 	width: 12em;
 	margin-top: 3em;
-	margin-bottom: 5em;
+	margin-bottom: 2em;
 }
 
 .photo-bg-education {
