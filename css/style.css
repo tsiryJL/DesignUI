@@ -301,7 +301,7 @@ label.error {
 .body-piling .brand {
 	z-index: 500;
 	left: 15px;
-	padding:1em;	
+	padding:0em 1em;	
 	position: absolute;
 }
 
