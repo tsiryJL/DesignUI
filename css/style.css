@@ -80,6 +80,10 @@ img {
 	}
 }
 
+a{
+	color: #ff890c;
+}
+
 
 
 /* 1.3 Animation */
@@ -1247,10 +1251,6 @@ h3.slide-title {
 	font-weight: bold;
 }
 
-.service-list li:not(:first-child) {
-	margin-top: 8px;
-}
-
 .primary-link a,
 .primary-link a:hover {
 	color: inherit;
@@ -2089,6 +2089,10 @@ h3.slide-title {
 	.body-piling .footer-social {
 		bottom: 4.375rem;
 	}
+
+	.primary-link {
+		font-size: 15px;
+	}
 }
 
 @media (min-width: 1400px) {
@@ -2310,6 +2314,9 @@ h3.slide-title {
 	.slide-title{
 		font-size: 1.75rem;
 	}
+	.primary-link {
+		font-size: 15px;
+	}
 }
 
 .screen-content {
@@ -2456,15 +2463,32 @@ h3.slide-title {
 	.reward-list {
 		margin-top:0rem; 
 	}
-	
+	.primary-link {
+		font-size: 15px;
+	}
 }
 
 @media (width: 360px){
 	#pt-20{
 		padding-top: 20em;
 	}
+	.primary-link {
+		font-size: 15px;
+	}
 }
 
 .color-title{
 	color: #5fcbf3;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 2em;
+	width: 7em;
+}
+
+.typewritte{
+	font-size: 2em;
 }
