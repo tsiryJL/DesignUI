@@ -304,8 +304,8 @@ label.error {
 
 .body-piling .brand {
 	z-index: 500;
-	left: 15px;
-	padding:0em 1em;	
+	padding:0em;
+	left:0px;	
 	position: absolute;
 }
 
@@ -2482,11 +2482,8 @@ h3.slide-title {
 }
 
 .logo{
-	display: flex;
-	justify-content: center;
 	position: relative;
-	bottom: 2em;
-	width: 7em;
+	left:4em;
 }
 
 .typewritte{
