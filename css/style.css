@@ -1568,9 +1568,7 @@ h3.slide-title {
 }
 
 @media (min-width: 768px) {
-	.portfolio-item-detail {
-		min-height: 8.75rem;
-	}
+	
 	.slide-title{
 		font-size: 1.75rem;
 	}
