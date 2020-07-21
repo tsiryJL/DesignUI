@@ -2036,6 +2036,7 @@ h3.slide-title {
 	}
 	.body-piling .footer-social {
 		bottom: 4.375rem;
+		margin-right: -1em;
 	}
 
 	.primary-link {
@@ -2050,6 +2051,7 @@ h3.slide-title {
 
 	.body-piling .footer-social {
 		right: 4.375rem;
+		margin-right: -1em;
 	}
 }
 
