@@ -380,17 +380,17 @@ label.error {
   width: 100%;
 }
 
-html:not(.body-menu-opened) .hamburger:hover .top-bun {
+html:not(.body-menu-opened) .hamburger .top-bun {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
           animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
 }
 
-html:not(.body-menu-opened) .hamburger:hover .meat {
+html:not(.body-menu-opened) .hamburger .meat {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
           animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
 }
 
-html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
+html:not(.body-menu-opened) .hamburger .bottom-bun {
   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
           animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
 }
@@ -2423,3 +2423,4 @@ h3.slide-title {
 .typewritte{
 	font-size: 2em;
 }
+
