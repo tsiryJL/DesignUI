@@ -2383,6 +2383,14 @@ h3.slide-title {
 		display: none!important;
 	}
 	
+	.display-none{
+		display: none!important;
+	}
+
+	div#temoignage > .col-md-6{
+		display: block!important;
+	}
+
 	.slide-title{
 		font-size: 2em!important;
 	}
