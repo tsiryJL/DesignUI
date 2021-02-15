@@ -21,13 +21,51 @@
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-
+ 
     <!-- Main CSS -->
     <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body class="body-piling is-dark" onload="myFunction()" style="margin:0;">
-  <div id="loader"></div>
+      <div id="loader-wrapper">	
+        <div id="page">
+        <div id="phrase_box">
+          <svg width="100%" height="100%">
+          <defs>
+              <style type="text/css">
+              @font-face {
+              font-family: "Proxima";
+              src: url('');
+              }
+              </style>
+            <mask id="mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+              <linearGradient id="linearGradient" gradientUnits="objectBoundingBox" x2="0" y2="1">
+              <stop stop-color="white" stop-opacity="0" offset="0%"/>
+              <stop stop-color="white" stop-opacity="1" offset="30%"/>
+              <stop stop-color="white" stop-opacity="1" offset="70%"/>
+              <stop stop-color="white" stop-opacity="0" offset="100%"/>
+              </linearGradient>
+              <rect width="100%" height="100%" fill="url(#linearGradient)"/>
+            </mask>
+          </defs>
+          <g width="100%" height="100%" style="mask: url(#mask);">
+            <g id="phrases"></g>
+          </g>
+        </svg>
+      </div>
+        <div id="ighex">
+          <section class="wrapper">
+            <div class="card">
+              <div class="loading">
+                <span ></span>
+                <span ></span>
+                <span ></span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
     <div class="wrapper">
       <header id="header" class="header">
         <div class="container-fluid">
