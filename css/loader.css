@@ -66,7 +66,7 @@
 	}
 
 	.slide-title{
-		font-size: 2em!important;
+		font-size: 1.5em!important;
 	}
 
 	.Resp-pic{
@@ -80,16 +80,28 @@
 		margin-top:0rem; 
 	}
 	.primary-link {
-		font-size: 15px;
+		font-size: 12px;
 	}
 }
 
-@media (width: 360px){
+@media screen and (min-width: 200px) and (max-width: 360px){
 	#pt-20{
 		padding-top: 20em;
 	}
 	.primary-link {
-		font-size: 15px;
+		font-size: 12px!important;
+	}
+}
+
+@media (width: 320px){
+	.primary-link {
+		font-size: 11px!important;
+	}
+}
+
+@media (width: 375px){
+	.primary-link {
+		font-size: 14px!important;
 	}
 }
 
