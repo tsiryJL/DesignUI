@@ -51,60 +51,6 @@
 	text-align: center;
   }
 
-  /*Version Mobile*/
-@media (max-width: 758px) {
-	.col-md-6{
-		display: none!important;
-	}
-	
-	.display-none{
-		display: none!important;
-	}
-
-	div#temoignage > .col-md-6{
-		display: block!important;
-	}
-
-	.slide-title{
-		font-size: 1.5em!important;
-	}
-
-	.Resp-pic{
-		width: 9em;
-		margin-top: 0px;
-		width: 7em;
-		float: right;
-		margin-right: 5em;
-	}
-	.reward-list {
-		margin-top:0rem; 
-	}
-	.primary-link {
-		font-size: 12px;
-	}
-}
-
-@media screen and (min-width: 200px) and (max-width: 360px){
-	#pt-20{
-		padding-top: 20em;
-	}
-	.primary-link {
-		font-size: 12px!important;
-	}
-}
-
-@media (width: 320px){
-	.primary-link {
-		font-size: 11px!important;
-	}
-}
-
-@media (width: 375px){
-	.primary-link {
-		font-size: 14px!important;
-	}
-}
-
 .color-title{
 	color: #5fcbf3;
 }
