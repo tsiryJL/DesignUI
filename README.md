@@ -1,6 +1,4 @@
   # Hello 👋, I'm Tsiry RAZANAKOTO!  
-  
-![alt text](https://github.com/tsiryjl/DesignUI/blob/master/tsiryJL.png?raw=true)
  I'm a Front-End Developer from *Madagascar*
  
 ### Description
