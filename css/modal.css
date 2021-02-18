@@ -1,0 +1,232 @@
+
+/*-------------------------------------------------------------------------------
+  6. Modal
+-------------------------------------------------------------------------------*/
+
+.modal-content {
+	border: none;
+}
+
+.modal .close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 1.75rem;
+}
+
+.modal-body {
+	padding: 2.5rem 2rem;
+}
+
+
+
+/*-------------------------------------------------------------------------------
+  7. Dark Theme
+-------------------------------------------------------------------------------*/
+
+.is-dark::selection,
+.is-dark ::selection {
+  background-color: #78acd9;
+  color: #ffffff;
+}
+
+.is-dark::-moz-selection,
+.is-dark ::-moz-selection {
+  background-color: #78acd9;
+  color: #ffffff;
+}
+
+.is-dark,
+.is-dark .pp-scrollable {
+	background-color: #3c3c59;
+}
+
+.is-dark .slide-dark {
+	background-color: #32324c;
+}
+
+.is-dark,
+.is-dark .header,
+.is-dark .footer,
+.is-dark .brand-name,
+.is-dark .brand-name-s,
+.is-dark .copyright,
+.is-dark .chat-title,
+.is-dark .slide:not(.slide-about) .slide-descr strong,
+.is-dark a:hover,
+.is-dark .menu-main a,
+.is-dark .menu-main a:hover,
+.is-dark .menu-lang-item.active,
+.is-dark .menu-lang-item:hover,
+.is-dark .menu-footer-copyright {
+	color: #ffffff;
+}
+
+.is-dark .hamburger span {
+	background: #ffffff;
+}
+
+.is-dark .menu {
+	background-color: #202044;
+}
+
+.is-dark .hide-menu {
+	background-color: transparent;
+}
+
+.is-dark .menu-main .active a,
+.is-dark .menu-main a:hover {
+	background-color: #78acd9;
+	box-shadow: #78acd9 0 0 0 2px
+}
+
+.is-dark .slide-title .text-typed {
+	background-color: #78acd9;
+	box-shadow: #78acd9 0 0 0 5px;
+}
+
+.is-dark .slide-descr,
+.is-dark .vacancy-item-place,
+.is-dark .vacancy-item-text,
+.is-dark .portfolio-item-descr,
+.is-dark .reward-item-descr,
+.is-dark .testimonial-item-author-status,
+.is-dark .client-item-descr {
+	color: #b4b4d5;
+}
+
+.is-dark .rounded-text textPath {
+	fill: #b4b4d5;
+}
+
+.is-dark .lines > div {
+	background-color: #51516d;
+}
+
+.is-dark .progress-nav li:before {
+	background-color: #ffffff;
+}
+
+.is-dark .progress-nav li.active,
+.is-dark .progress-nav li.active ~ li {
+	background: #51516d;
+}
+
+.is-dark .image-card {
+	background-color: #4d4d6c;
+}
+
+.is-dark .shape6 > .inside {
+	background-image: url("../img/shape6-dark.png");
+}
+
+.is-dark .image-card-dark {
+	background-color: #1f2044;
+}
+
+.is-dark .card3-4 {
+	background-color: #32324c;
+}
+
+.is-dark .card6-1,
+.is-dark .card7-1 {
+	background-color: #df5647;
+}
+
+.is-dark .slide-ornament {
+	background-image: url("../img/ornament-dark.png");
+}
+
+.is-dark .owl-theme .owl-dots .owl-dot.active span,
+.is-dark .owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #e48b79;
+}
+
+.is-dark ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: rgba(255,255,255,.1);
+}
+
+
+
+/*-------------------------------------------------------------------------------
+  8. Intro
+-------------------------------------------------------------------------------*/
+
+.nav-toggle-btn .btn {
+	position: relative;
+	margin-top: -1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.btn .badge-purchase {
+	display: block;
+	position: absolute;
+	left: -4px;
+	top: -7px;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	background: url("../img/icon-purchase.png") 50% 50% no-repeat;
+	background-size: cover;
+}
+
+.intro .slide-container {
+	padding-bottom: 1rem;
+}
+
+.screen-container {
+	margin-top: 5.125rem;
+}
+
+.screen-content {
+	margin-left: .625rem;
+	margin-right: .625rem;
+}
+
+.slide-photo-intro {
+	background-image: url("../img/bg-notebook.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	height: 0;
+	padding-bottom: 82.22222222%;
+	margin-top: 0;
+}
+
+.slide-photo-intro a {
+	display: inline-block;
+	color: #1f2044;
+	text-decoration: none;
+}
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	transform: scale(1);
+	transition: transform .5s ease-in-out;
+}
+
+.slide-photo-intro a:hover .zoom img {
+	transform: scale(1.05);
+}
+
+.slide-photo-intro .inside {
+	padding-left: 12.22222222%;
+	padding-right: 12.22222222%;
+	padding-top: 3.65079365%;
+	padding-bottom: 10.47619048%; /*68*/
+}
+
+.screen-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
