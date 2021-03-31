@@ -294,7 +294,7 @@ function easeInOut(t) {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  var phrases = shuffleArray(["Connecting to server", "Grabbing objects", "Rendering page", "Resolving IP", "Pondering emptiness", "Considering alternatives", "Shuffling bits", "Waiting for response", "Generating pages", "Simulating workflow", "Empowering humanity", "Being awsome", "Fueling the idea", "Fixing CSS", "Talking to server", "Fetching data"]);
+  var phrases = shuffleArray(["Connexion au serveur", "Requêtes HTTP ", "Chargement des scripts", "Résolution d'IP", "Check mémoire cache", "Web Service", "Chargement des données", "Autonomiser l'humanité", "Génerer la pages", "Simulation des flux", "Récupération des données", "Compile SCSS ✨", "Garder le sourir 😊", "Code 200 ✔️", "Bienvenue à toi", "Récupération des données"]);
   addPhrasesToDocument(phrases);
   var start_time = new Date().getTime();
   var upward_moving_group = document.getElementById("phrases");
