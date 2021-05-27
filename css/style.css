@@ -2412,3 +2412,53 @@ h3.slide-title {
 	}
   }
   
+.social-link{
+	list-style: none;
+	margin: 0 15px;
+}
+  
+  .social-link a{
+	position: relative; 
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 63px;
+	background: #3c3c59;
+	border-radius: 50%;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	transition: .5s;
+  }
+  
+  .social-link a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #ffee10;
+	transition: .5s;
+	transform: scale(.9);
+	z-index: -1;
+  }
+  
+  .social-link a:hover::before {
+	transform: scale(1.1);
+	box-shadow: 0 0 15px #ffee10;
+  }
+  
+  .social-link a:hover {
+	color: #ffee10;
+	box-shadow: 0 0 5px #ffee10;
+	text-shadow: 0 0 5px #ffee10;
+  }
+
+  .fa{
+	font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
