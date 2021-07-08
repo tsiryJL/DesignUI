@@ -22,7 +22,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['About', 'Services', 'Skills', 'Resume', 'Portfolio', 'Awards', 'Testimonials', 'Clients', 'Contact'],
+			anchors: ['About', 'Services', 'Skills', 'Portfolio', 'Awards', 'Testimonials', 'Clients', 'Contact'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {
