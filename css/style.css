@@ -2462,3 +2462,13 @@ h3.slide-title {
     top: 10px;
     left: 12px;
   }
+
+  @media (max-width:990px) {
+	.body-piling .footer-social {
+		position: fixed;
+		right: 0px;
+		bottom: 20px;
+		z-index: 500;
+		padding-bottom: 0;
+	}
+  }
