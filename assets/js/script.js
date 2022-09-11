@@ -292,4 +292,3 @@ function easeInOut(t) {
   var period = 200;
   return (Math.sin(t / period + 100) + 1) /2;
 }
-
