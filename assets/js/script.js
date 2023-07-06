@@ -1,3 +1,32 @@
+
+/*-------------------------------------------------------------------------------
+	  LOADER 
+-------------------------------------------------------------------------------*/
+
+var words = ["LOADING", "TESTING", "BUNDLER", "UX", "CSS", "UI", "SCSS", "CONCEPTION", "ANIMATION", "IMAGES", "FRAMEWORK", "JAVASCRIPT", "HTML"];
+
+window.addEventListener("load", function() {
+	var randoms = window.document.getElementsByClassName("randoms");
+	for (i = 0; i < randoms.length; i++)
+			changeWord(randoms[i]);
+}, false);
+
+function changeWord(a) {
+	a.style.opacity = '0.1';
+	a.innerHTML = words[getRandomInt(0, words.length - 1)];
+	setTimeout(function() {
+			a.style.opacity = '1';
+	}, 425);
+	setTimeout(function() {
+			changeWord(a);
+	}, getRandomInt(500, 800));
+}
+
+
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 (function ($) {
 	'use strict';
 
@@ -228,9 +257,10 @@ function shuffleArray(array) {
 $(document).ready(function() {
 	
 	setTimeout(function(){
-		$('body').addClass('loaded');
-		
-	}, 15000);
+		$('.loader').addClass('fade-out-fwd');
+		$('.wrapper').css('opacity', 1);
+
+	}, 5000);
 	
 });
 function createSVG(tag, properties, opt_children) {
