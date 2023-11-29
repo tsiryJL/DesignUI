@@ -1,0 +1,101 @@
+@keyframes fadeInUp {
+   from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 160px, 0);
+      transform: translate3d(0, 160px, 0);
+   }
+
+   to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+   }
+}
+
+
+html:not(.body-menu-opened) .hamburger .top-bun {
+   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+   animation: burger-hover 1s infinite ease-in-out alternate forwards 200ms;
+}
+
+html:not(.body-menu-opened) .hamburger .meat {
+   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+   animation: burger-hover 1s infinite ease-in-out alternate forwards 400ms;
+}
+
+html:not(.body-menu-opened) .hamburger .bottom-bun {
+   -webkit-animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
+   animation: burger-hover 1s infinite ease-in-out alternate forwards 600ms;
+}
+
+
+@keyframes burger-hover {
+   0% {
+      width: 100%;
+   }
+
+   50% {
+      width: 50%;
+   }
+
+   100% {
+      width: 100%;
+   }
+}
+
+.scroll-down {
+   border: 2px solid $white;
+   border-radius: 20px;
+   bottom: 60px;
+   height: 50px;
+   left: 0;
+   margin: 0 auto;
+   position: absolute;
+   right: 0;
+   width: 30px;
+
+   &::before {
+      animation: scrollDownAnimation 2s infinite;
+      background-color: $white;
+      border-radius: 100%;
+      content: '';
+      height: 6px;
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      top: 10px;
+      width: 6px;
+   }
+}
+
+@keyframes scrollDownAnimation {
+   0% {
+      opacity: 0;
+      transform: translate(0, 0);
+   }
+
+   40% {
+      opacity: 1;
+   }
+
+   80% {
+      opacity: 0;
+      transform: translate(0, 20px);
+   }
+
+   100% {
+      opacity: 0;
+   }
+}
+
+
+@keyframes navHeight {
+   0% {
+      height: 0;
+   }
+
+   100% {
+      height: 100%;
+   }
+}

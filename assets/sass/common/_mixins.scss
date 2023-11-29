@@ -1,0 +1,67 @@
+@import "variable";
+
+@mixin browserCss($prop, $value) {
+    -moz-#{$prop}: $value;
+    -ms-#{$prop}: $value;
+    -o-#{$prop}: $value;
+    -webkit-#{$prop}: $value;
+    #{$prop}: $value;
+}
+
+@mixin maxPortrait($value,$value2: 851px) {
+    @media (min-width: $value2) and (max-width: $value) and (orientation: portrait) {
+        @content;
+    }
+}
+
+@mixin maxForceOrientationPortrait($value) {
+    @media (max-width: $value) and (orientation: landscape) {
+        @content;
+    }
+}
+
+@mixin max($value) {
+    @media (max-width: $value) {
+        @content;
+    }
+}
+@mixin min($value) {
+    @media (min-width: $value) {
+        @content;
+    }
+}
+@mixin minMax($valueMin, $valueMax) {
+    @media (min-width: $valueMin) and (max-width: $valueMax) {
+        @content;
+    }
+}
+
+@mixin maxHW($valueh, $valuew) {
+    @media (max-height: $valueh) and (min-width: $valuew) {
+        @content;
+    }
+}
+
+@mixin maxHmaxW($valueh, $valuew) {
+    @media (max-height: $valueh) and (max-width: $valuew) {
+        @content;
+    }
+}
+
+@mixin maxHminmaxW($valueh, $valuew1, $valuew2) {
+    @media (max-height: $valueh) and (min-width: $valuew1) and (max-width: $valuew2) {
+        @content;
+    }
+}
+
+@mixin maxH($value) {
+    @media (max-height: $value) {
+        @content;
+    }
+}
+
+@mixin minH($value) {
+    @media (min-height: $value) {
+        @content;
+    }
+}

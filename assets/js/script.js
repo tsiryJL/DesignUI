@@ -254,15 +254,7 @@ function shuffleArray(array) {
     }
     return array;
 }
-$(document).ready(function() {
-	
-	setTimeout(function(){
-		$('.loader').addClass('fade-out-fwd');
-		$('.wrapper').css('opacity', 1);
 
-	}, 5000);
-	
-});
 function createSVG(tag, properties, opt_children) {
   var newElement = document.createElementNS("http://www.w3.org/2000/svg", tag);
   for(prop in properties) {
@@ -322,3 +314,8 @@ function easeInOut(t) {
   var period = 200;
   return (Math.sin(t / period + 100) + 1) /2;
 }
+//It also supports NodeList
+VanillaTilt.init(document.querySelectorAll(".portfolio-item-photo"),{
+	max: 5,
+	speed: 400
+});
