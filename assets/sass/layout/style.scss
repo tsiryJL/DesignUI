@@ -1121,8 +1121,10 @@ h3.slide-title {
 }
 
 .slide-photo-services>.inside {
-	width: 67.19298246%;
-	margin-left: 15%;
+	width: 100%;
+	@include max(750px){
+		display: none;
+	}
 }
 
 .image-card {
@@ -2196,7 +2198,15 @@ h3.slide-title {
 }
 
 .d-mobile {
-	@include max(992px) {
+	@include max(750px) {
+		display: none;
+	}
+}
+
+.contact-lottie{
+	width: 400px;
+	margin: auto;
+	@include max(750px){
 		display: none;
 	}
 }

@@ -13863,8 +13863,12 @@ h3.slide-title {
 }
 
 .slide-photo-services > .inside {
-  width: 67.19298246%;
-  margin-left: 15%;
+  width: 100%;
+}
+@media (max-width: 750px) {
+  .slide-photo-services > .inside {
+    display: none;
+  }
 }
 
 .image-card {
@@ -14930,8 +14934,18 @@ h3.slide-title {
     padding-bottom: 0;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   .d-mobile {
+    display: none;
+  }
+}
+
+.contact-lottie {
+  width: 400px;
+  margin: auto;
+}
+@media (max-width: 750px) {
+  .contact-lottie {
     display: none;
   }
 }
