@@ -14166,6 +14166,14 @@ h3.slide-title {
 /* 4.5 Slide Portfolio */
 .portfolio-item-photo {
   margin-bottom: 1.75rem;
+  height: 415px;
+}
+.portfolio-item-photo figure {
+  height: 100%;
+  margin: 0;
+}
+.portfolio-item-photo figure img {
+  height: 100%;
 }
 
 @media (min-width: 768px) {
